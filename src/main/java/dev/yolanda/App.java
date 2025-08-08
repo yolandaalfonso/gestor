@@ -20,6 +20,9 @@ public final class App {
         gestor.createList();
         gestor.printDays();
         gestor.returnSize();
-        gestor.removeDay();
+        gestor.removeDay("Lunes");
+        gestor.returnSize();
+        gestor.returnDay("Jueves");
+        gestor.thereIs("Miércoles");
     }
 }

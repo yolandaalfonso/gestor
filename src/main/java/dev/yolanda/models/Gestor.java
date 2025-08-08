@@ -32,8 +32,33 @@ public class Gestor {
         System.out.print(semana.size());
     }
 
-    public void removeDay() {
-        semana.remove(0);
+    public void removeDay(String dia) {
+        semana.remove(dia);
         System.out.println(semana);
     }
+
+    //Este método está mal, solo funcionaría si quiero que me devuelva un índice dentro del array
+    public void returnDayIndex(String dia) {
+        //semana.get(dia); //get solo funciona con índices no con string
+        System.out.println(semana);
+    }
+
+    public String returnDay(String dia) {
+        for (String d : semana) {
+            if (d.equals(dia)) {
+                return d;
+            }
+        }
+        return "dia no encontrado";
+    }
+
+    public void thereIs(String dia) {
+        if (semana.contains(dia)) {
+            System.out.print("Si está el día de la semana");
+            
+        }else{
+            System.out.println("No existe ese día de la semana");
+        }
+    }
+
 }
