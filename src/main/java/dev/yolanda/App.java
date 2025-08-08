@@ -17,7 +17,9 @@ public final class App {
 
         Gestor gestor = new Gestor();
 
-        gestor.crearLista();
-        gestor.imprimirDias();
+        gestor.createList();
+        gestor.printDays();
+        gestor.returnSize();
+        gestor.removeDay();
     }
 }

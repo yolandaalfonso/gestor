@@ -6,7 +6,7 @@ public class Gestor {
 
     private ArrayList<String> semana = new ArrayList<>();
     
-    public void crearLista() {
+    public void createList() {
 
         semana.add("Lunes");
         semana.add("Martes");
@@ -21,10 +21,19 @@ public class Gestor {
 
     }
 
-    public void imprimirDias() {
+    public void printDays() {
         System.out.println("Días de la semana:");
         for (String dia : semana) {
             System.out.println(dia);
         }
+    }
+
+    public void returnSize() {
+        System.out.print(semana.size());
+    }
+
+    public void removeDay() {
+        semana.remove(0);
+        System.out.println(semana);
     }
 }
