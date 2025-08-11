@@ -21,6 +21,10 @@ public class Gestor {
 
     }
 
+    public ArrayList<String> getSemana() {
+        return semana;
+    }
+
     public void printDays() {
         System.out.println("Días de la semana:");
         for (String dia : semana) {

@@ -1,8 +1,9 @@
 package dev.yolanda;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import dev.yolanda.models.Gestor;
 
 /**
  * Unit test for simple App.
@@ -13,6 +14,7 @@ class AppTest {
      */
     @Test
     void testApp() {
+        Gestor gestor = new Gestor();
         assertEquals(1, 1);
     }
 }
