@@ -1,7 +1,5 @@
 package dev.yolanda;
 
-import dev.yolanda.models.Gestor;
-
 /**
  * Hello world!
  */
