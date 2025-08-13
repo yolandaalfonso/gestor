@@ -22,5 +22,6 @@ public final class App {
         gestor.returnSize();
         gestor.returnDay("Jueves");
         gestor.thereIs("Miércoles");
+        gestor.clearDays();
     }
 }

@@ -120,7 +120,7 @@ public class GestorTest {
 
     @Test
     void testClearDays() {
-        //Given
+        //Giv
         
 
         //When 
